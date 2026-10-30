@@ -1,0 +1,343 @@
+body{
+    scroll-behavior: smooth;
+      
+}
+
+.navbar{
+    opacity: 0.9;
+}
+.logo img{
+    width: 70px;
+    height: 80px;
+}
+.nav-link img{
+    width: 50px;
+    height: 50px;
+    gap: 20px;
+    
+}
+.my-0-con{
+    display: inline-block;
+    margin-bottom: 20%;
+    width: 40%;
+    text-align: left;
+}
+.my-0-con p{
+    font-size: 50px;
+}
+.my-0-con h1{
+    font-size: 70px;
+}
+
+.my-r1-con{
+    margin-left: 35%;
+    margin-bottom: 10%;
+}
+.my-r1-con p{
+font-size: 20px;
+margin-right: 10%;
+
+}
+.r1-tit{
+    position: absolute;
+    z-index: 10;
+    display:inline-block;
+    transform: translateX(50px);
+}
+.my-r1-con h1{
+    margin-bottom: 5%;
+    
+}
+.my-r1-img{
+    position: absolute;
+    
+}
+.card-r1{
+    background: rgb(255, 224, 166);
+    top: 20%;
+    width: 70%;
+    height: 70%;
+    position: relative;
+    margin-left: 20%;
+}
+
+.r1-sub{
+    position: relative;
+    background-color: #ffffff;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.car-sub{
+    position: relative;
+    z-index: 20;
+}
+.r1-sub::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: url("../images/1b3.jpg");
+    inset:0;
+    opacity: 0.5;
+}
+.image-container {
+       position: relative;
+       display: inline-block;
+   }
+   /* 彈出內容的樣式 */
+   .info-box {
+       display: none; /* 預設隱藏 */
+       margin-top: 15px;
+       padding: 15px;
+       border: 1px solid #ccc;
+       background-color: #f9f9f9;
+       border-radius: 5px;
+       max-width: 400px;
+   }
+.r2-sub{
+    background: #ffffff;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+}
+.r2-sub::before{
+    content: '';
+    inset: 0;
+    position: absolute;
+    background: url("../images/3b.jpg") center/cover no-repeat;
+    opacity: 0.8;
+    z-index: -1;
+}
+.r2-img-con img{
+    position: relative;
+    height: 100vh;
+    width: 80%;
+}
+.r2-icon-con img{
+    position: absolute;
+    z-index: 50;
+    width: 80px;
+    height:100px;
+}
+#accordion1{
+    display:flex;
+    gap:20px;
+}
+
+#accordion1 .accordion-item{
+    flex:1;
+}
+.r3-sub{
+    position: relative;
+    background: #ffffff;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+}
+.r3-sub::before{
+    position: absolute;
+    opacity: 0.8;
+    inset: 0;
+    content: '';
+    background: url("../images/3b-1.jpg")center/cover no-repeat;
+    z-index: -1;
+}
+.r3-sec{
+    margin-top: 20%;
+}
+.r3-tit{
+    display: inline-block;
+        transform: translateY(20px);
+}
+.r3-card{
+    background: #ffffff;
+    width: 40%;
+    height: 10%;
+    transform: translateY(50px);
+
+}
+.r4-tit{
+    display: inline-block;
+    transform: translateY(20px);
+}
+
+   .r4-sub{
+            position: relative;
+            background: #ffffff;
+            overflow: hidden;
+            width: 100%;
+            height:100vh;
+            z-index: 1;
+
+        }
+        .r4-sub::before{
+            position: absolute;
+            content: "";
+            inset: 0;
+            background: url("../images/4b.jpg")center /cover no-repeat;
+            opacity: 0.8;
+            z-index: -1;
+        }
+        .accordion{
+            transform:translateY(20px);
+        }
+        .accordion-item{
+            margin-bottom: 20px;
+        }
+        body,html
+        {cursor: url('../images/mouse.png'), auto;}
+        a, button, input[type="button"], input[type="submit"], .clickable {
+  /* 替換成你的點擊手指滑鼠圖片 */
+            cursor: url('../images/buttom.png'), pointer !important;
+            }
+            p, span, h1, h2, h3, h4, h5, h6, input, textarea, li {
+            /* 替換成你的文字 I 型滑鼠圖片 */
+            cursor: url('../images/texthover.png'), text;
+            }
+
+@media (max-width:768px){
+
+    .my-0-con p{
+    font-size: 10px;
+    }
+.my-0-con h1{
+    font-size: 30px;
+    }
+    .card-r1{
+    margin-left: 0%;
+    width: 100%;
+    height:50vh;
+   transform: translateY(-20%);
+}
+    .my-r1-con{
+    margin-left: 0%;
+    transform: translateY(95%);
+
+   
+}
+.r1-tit{
+    display: inline-block;
+    transform:translateY(10px) translateX(60px);
+    color: #fcfbfa;
+    }
+    .accordion-body p{
+        font-size: 10px;
+    }
+    .r3-tit{
+        display: inline-block;
+        transform: translateY(10px);
+        }
+        .r3-card{
+            background: #ffffff;
+            width: 40%;
+            height: 8%;
+            transform: translateY(5px);
+
+        }
+        .accordion-item{
+            transform: translateY(-10%);
+        }
+     
+ 
+}
+
+
+
+
+
+.history-header {
+            border-bottom: 3px double #a08569; /* 雙線邊框營造書籍感 */
+            padding-bottom: 2rem;
+        }
+
+        /* 垂直時間軸主幹 */
+        .timeline {
+            position: relative;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 0;
+        }
+
+        /* 在中央畫一條優雅細線 */
+        .timeline::after {
+            content: '';
+            position: absolute;
+            width: 1px;
+            background-color: #c4b49e;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            margin-left: -0.5px;
+        }
+
+        /* 時間軸節點容器 */
+        .timeline-item {
+            padding: 25px 0;
+            position: relative;
+        }
+
+        /* 時間軸上的古風空心圓點 */
+        .timeline-dot {
+            width: 12px;
+            height: 12px;
+            background-color: #f7f4eb;
+            border: 2px solid #7d5a44;
+            border-radius: 50%;
+            position: absolute;
+            left: 50%;
+            top: 45px;
+            transform: translateX(-50%);
+            z-index: 2;
+        }
+
+        /* 純文字卡片優化（移除圖片後，改用邊框與左側色條凸顯質感） */
+        .history-card {
+            border: 1px solid #dcd1be !important;
+            background-color: #ffffff;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        
+        /* 讓文字卡片滑過時有微幅沉降感 */
+        .history-card:hover {
+            border-color: #7d5a44 !important;
+            box-shadow: 0 4px 15px rgba(125, 90, 68, 0.05);
+        }
+
+        /* 年份徽章自訂樣式 */
+        .badge-year {
+            background-color: #7d5a44;
+            color: #ffffff;
+            font-family: 'Times New Roman', serif;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+            padding: 6px 12px;
+        }
+
+        /* 史料文獻折疊區樣式 */
+        .archive-box {
+            background-color: #fcfbfa;
+            border-left: 3px solid #a08569;
+            font-size: 0.95rem;
+        }
+
+        /* 手機版自適應優化：時間軸線移至最左側 */
+        @media (max-width: 767.98px) {
+            .timeline::after {
+                left: 20px;
+            }
+            .timeline-dot {
+                left: 20px;
+                transform: none;
+            }
+            .timeline-item .col-md-6 {
+                padding-left: 45px ;
+                padding-right: 15px ;
+            }
+            .carousel-item{
+                height: 100vh;
+            }
+        }
