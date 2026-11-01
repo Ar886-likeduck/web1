@@ -14,17 +14,17 @@
         <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
              <a class="navbar-brand" href="#">
                 <div class="logo">
-                    <img src="../images/logo.png" alt="">
+                    <img src="images/logo.png" alt="">
                 </div>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse mb-2" id="navbarSupportedContent1">
-                 <a class="nav-link" href="#r1"><img src="../images/TIME.png" alt=""></a>
-                 <a class="nav-link" href="#r2"><img src="../images/history.png" alt=""></a>
-                 <a class="nav-link" href="#r3"><img src="../images/people.png" alt=""></a>
-                 <a class="nav-link" href="#r4"><img src="../images/hreart.png" alt=""></a>
+                 <a class="nav-link" href="#r1"><img src="images/TIME.png" alt=""></a>
+                 <a class="nav-link" href="#r2"><img src="images/history.png" alt=""></a>
+                 <a class="nav-link" href="#r3"><img src="images/people.png" alt=""></a>
+                 <a class="nav-link" href="#r4"><img src="images/hreart.png" alt=""></a>
                 <form class="d-flex ms-auto my-lg-0">
                     <input class="form-control" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
@@ -32,44 +32,40 @@
             </div>
         </nav>
         <section id="#">
-            <div id="carouselExampleIndicatorhome" class="carousel slide" data-bs-ride="carousel" style="background-color: grey">
-                <ol class="carousel-indicators">
-                    <div data-bs-target="#carouselExampleIndicatorhome" data-bs-slide-to="0" class="active"></div>
-                    <div data-bs-target="#carouselExampleIndicatorhome" data-bs-slide-to="1"></div>
-                    <div data-bs-target="#carouselExampleIndicatorhome" data-bs-slide-to="2"></div>
-                </ol>
-                <div class="carousel-inner" role="listbox">
+            <div class="carousel slide carousel-fade" id="titi" data-bs-ride="carousel">
+                <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block mx-auto w-100 h-100" src="../images/1b.jpg" alt="First slide">
-                        <div class="carousel-caption my-0-con">
-                            <h1 class="fw-bold">打破偏見!</h1>
-                            <p>不以主觀想法批評及汙辱他人以客觀的眼光看待每位非凡的個體</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item"> <img class="d-block mx-auto w-100 h-100" src="../images/1b2.jpg" alt="Second slide">
-                        <div class="carousel-caption my-0-con">
-                            <h1>給予尊重</h1>
-                            <p>面對各式人群不排擠、嘲笑給予尊重接納所有與身具來擁有不同特殊認同的靈魂</p>
+                        <img src="images/1b.png" alt="" class="d-block w-100 h-100">
+                        <div class="carousel-caption">
+                            <h1 class="my-0-h1 d-block">打破偏見!</h1>
+                            <p class="my-0-p d-block">不以主觀想法批評及汙辱他人以客觀的眼光看待每位非凡的個體</p>                   
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block mx-auto w-100 h-100" src="../images/1b3.jpg" alt="Third slide">
-                        <div class="carousel-caption my-0-con">
-                            <h1>不分他她</h1>
-                            <p>不再以客觀的他她去分辨，改以他人所認為的性別認同去稱呼</p>
+                        <img src="images/1b2.png" alt="" class="d-block w-100 h-100">
+                        <div class="carousel-caption">
+                            <h1 class="my-0-h1">給予尊重</h1>
+                            <p class="my-0-p">面對各式人群不排擠、嘲笑給予尊重接納所有與身具來擁有不同特殊認同的靈魂</p>
                         </div>
                     </div>
-
-                    <a class="carousel-control-prev" href="#carouselExampleIndicatorhome" role="button" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicatorhome" role="button" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true">
-                        </span>
-                        <span class="visually-hidden">Next</span>
-                    </a>
+                    <div class="carousel-item">
+                        <img src="images/1b3.png" alt="" class="d-block w-100 h-100">
+                        <div class="carousel-caption">
+                            <h1 class="my-0-h1">不分他她</h1>
+                            <p class="my-0-p">不再以客觀的他她去分辨，改以他人所認為的性別認同去稱呼</p>
+                        </div>
+                    </div>
                 </div>
+
+
+                <button type="button" class="carousel-control-prev" data-bs-target="#titi" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+
+                <button type="button" class="carousel-control-next" data-bs-target="#titi" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+
             </div>
         </section>
 
@@ -79,7 +75,7 @@
             <div class="car-sub">
                 <div id="carouselExampleIndicators1" class="carousel slide" data-bs-ride="carousel" style="position: relative;">
                     <div class="r1-tit ">
-                        <h2 class="fw-bold position-absolute h-100 w-100">時代研究</h2>
+                        <h2 class="fw-bold d-flex b1-tit">時代研究</h2>
                     </div>
                     <ol class="carousel-indicators">
                         <div data-bs-target="#carouselExampleIndicatorhome" data-bs-slide-to="0" class="active"></div>
@@ -93,7 +89,7 @@
                                 <div class="card-r1">
                                     <div class="container">
                                         <div class="row">
-                                            <img class="d-block mx-auto col-sm-12 col-md-7 my-r1-img w-90 h-100" src="../images/2b2.jpg" alt="First slide">
+                                            <img class="d-block mx-auto col-sm-12 col-md-7 my-r1-img w-90 h-100" src="../images/2b2.png" alt="First slide">
                                             <div class="carousel-caption d-block col-sm-12 col-md-5 my-r1-con text-dark text-start">
                                                 <h1 class="fw-bold my-r1-con">生理性別<br>性別特質</h1>
                                                 <p class="my-r1-con">生理性別為自然形成，依據外貌等特徵來辨別而性別特質則為依據個人外貌去分辨</p>
@@ -109,7 +105,7 @@
                                 <div class="card-r1">
                                     <div class="container">
                                         <div class="row">
-                                            <img class="d-block mx-auto col-sm-12 col-md-7 my-r1-img w-90 h-100" src="../images/2b3.jpg" alt="First slide">
+                                            <img class="d-block mx-auto col-sm-12 col-md-7 my-r1-img w-90 h-100" src="../images/2b3.png" alt="First slide">
                                             <div class="carousel-caption d-block col-sm-12 col-md-5 my-r1-con text-dark text-start">
                                                 <h1 class="fw-bold my-r1-con">性傾向<br>性認同</h1>
                                                 <p class="my-r1-con">倆者差別在於前者為對於感情方面的認知，後者為對於自身性別感受的位置</p>
@@ -124,7 +120,7 @@
                                 <div class="card-r1">
                                     <div class="container">
                                         <div class="row">
-                                            <img class="d-block mx-auto col-sm-12 col-md-7 my-r1-img w-90 h-100" src="../images/2b.jpg" alt="First slide">
+                                            <img class="d-block mx-auto col-sm-12 col-md-7 my-r1-img w-90 h-100" src="../images/2b.png" alt="First slide">
                                             <div class="carousel-caption d-block col-sm-12 col-md-5 my-r1-con text-dark  text-start">
                                                 <h1 class="fw-bold my-r1-con">迷思<br>澄清</h1>
                                                 <p class="my-r1-con">每個人的外貌天生就不同，非所有女性都應有著溫柔體貼的個性；男性也非所有都應堅強且勇敢</p>
@@ -283,80 +279,78 @@
         </section>
 
 
-       <section id="r3">
-            <div class="r3-sub">
-                <div class="r3-card">
-                    <div class="r3-tit fw-bold">
-                        <h2>真人真事</h2>
-                    </div>
-                    </div>
-                    <div class="r3-sec">
-                        <div class="accordion" id="accordion1">
-                            
-                            <!-- 項目一 -->
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingOne1">
-                                    <!-- 💡 關鍵 1：data-bs-target 對準 #collapseOne -->
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> 
-                                        〈小恩的更衣室〉 
-                                    </button>
-                                </h2>
-                                <!-- 💡 關鍵 2：id 必須剛好叫 collapseOne -->
-                                <div id="collapseOne" class="accordion-collapse collapse show fw-bold " aria-labelledby="headingOne1" data-bs-parent="#accordion1">
-                                    <div class="accordion-body "> <p>小恩的生理性別是女生，但他從小就認為自己是男生。進入高中後，
-                                        更衣室讓他非常焦慮，老師跟學務處討論後，安排了教職員更衣空間，並協助班上
-                                        同學理解「尊重與隱私」的界線。有位平常較直接
-                                        的男同學後來對他說：「我不懂跨性別，但我知道你是我們的人。」小恩說，這句話比任何政策都更讓他感到
-                                        安心。</p>
-                                    </div>
-                                </div>
-                            </div>
+      <section id="r3">
+        <div class="r3-sub">
+            <!-- 這裡只放並排的按鈕 -->
+            <div class="r3-btn d-flex flex-wrap gap-5 align-items-center rw-r3-btn">
+                <div class="r3-btn-1">
+                    <button type="button" class="btn btn-primary fw-bold" data-bs-toggle="modal" data-bs-target="#jaja">
+                        故事一 
+                    </button>
+                </div>
+                <div class="r3-btn-2">
+                    <button type="button" class="btn btn-primary fw-bold" data-bs-toggle="modal" data-bs-target="#ww">
+                        故事二 
+                    </button>
+                </div>
+                <div class="r3-btn-3">
+                    <button type="button" class="btn btn-primary fw-bold" data-bs-toggle="modal" data-bs-target="#pp">
+                        故事三 
+                    </button>
+                </div>
+            </div>        
+        </div>
+    </section>
 
-                            <!-- 項目二 -->
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingTwo1">
-                                    <!-- 💡 關鍵 1：data-bs-target 對準 #collapseTwo -->
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> 
-                                        〈靜怡的朋友〉
-                                    </button>
-                                </h2>
-                                <!-- 💡 關鍵 2：id 必須剛好叫 collapseTwo -->
-                                <div id="collapseTwo" class="accordion-collapse collapse fw-bold" aria-labelledby="headingTwo1" data-bs-parent="#accordion1">
-                                    <div class="accordion-body"> <p>靜怡一直覺得自己跟多元性別議題沒關係，直到她發現班上兩位同性戀朋友在下課時
-                                                                    總是刻意保持距離。
-                                                                    某天她問其中一位朋友原因，他只回答：「我怕有人不舒服。」
-                                                                    靜怡說：「但你們只是牽手啊。」
-                                                                    朋友回她：「對你是牽手，對別人可能是話柄。」
-                                                                    靜怡那天開始明白，「平等」不是大家一樣，而是讓每個人都能安心存在。
-                                                                </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- 項目三 -->
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingThree1">
-                                    <!-- 💡 關鍵 1：data-bs-target 對準 #collapseThree -->
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> 
-                                        〈阿哲的烘焙課〉
-                                    </button>
-                                </h2>
-                                <!-- 💡 關鍵 2：id 必須剛好叫 collapseThree -->
-                                <div id="collapseThree" class="accordion-collapse collapse  fw-bold" aria-labelledby="headingThree1" data-bs-parent="#accordion1">
-                                    <div class="accordion-body"><p>阿哲國三時就喜歡做甜點，但幾次被同學說「男生玩這個很奇怪」。升上高中後，他
-                                                                在家政課示範蛋糕製作，許多人第一次看到男生在台前如此專注。
-                                                                原本常取笑他的人，在吃到蛋糕後改口稱讚，甚至向阿哲請教技巧。
-                                                                阿哲說，他不是想證明什麼，而是想做自己喜歡的事。而當同學開始欣賞他的專長
-                                                                時，他第一次感到「原來我可以這樣被看見」 
-                                                                </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+<!-- 【重要】Modal 彈窗必須放在按鈕容器外面（例如區塊下方），避免被 CSS 侷限 -->
+    <div class="modal fade" id="jaja" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">小恩的更衣室</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                    小恩的生理性別是女生，但他從小就認為自己是男生。進入高中後， 更衣室讓他非常焦慮，老師跟學務處討論後，安排了教職員更衣空間，並協助班上 同學理解「尊重與隱私」的界線。有位平常較直接
+                    的男同學後來對他說：「我不懂跨性別，但我知道你是我們的人。」小恩說，這句話比
+                    任何政策都更讓他感到 安心。
                 </div>
             </div>
-        </section>
+        </div>
+    </div>
+
+    <div class="modal fade" id="ww" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">靜宜的朋友</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                    靜怡一直覺得自己跟多元性別議題沒關係，直到她發現班上兩位同性戀朋友在下課時 總是刻意保持距離。 某天她問其中一位朋友原因，他只回答：「我怕有人不舒服。」 靜怡說
+                    ：「但你們只是牽手啊。」 朋友回她：「對你是牽手，對別人可能是話柄。」 靜怡那天開
+                    始明白，「平等」不是大家一樣，而是讓每個人都能安心存在。
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="pp" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"> 阿哲的烘培課</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                </div>
+                <div class="modal-body">
+                    阿哲國三時就喜歡做甜點，但幾次被同學說「男生玩這個很奇怪」。升上高中後，他 在家政課示範蛋糕製
+                    作，許多人第一次看到男生在台前如此專注。 原本常取笑他的人，在吃到蛋糕後改口稱讚，甚至向阿哲請教技
+                    巧。 阿哲說，他不是想證明什麼，而是想做自己喜歡的事。而當同學開始欣賞他的專長 時，他第一次感到「原來我可以這樣被看見」
+                </div>
+            </div>
+        </div>
+    </div>
+
         <section id="r4">
             <div class="r4-con">
                 <div class="r4-sub">
